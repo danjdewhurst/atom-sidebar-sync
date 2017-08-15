@@ -1,15 +1,13 @@
 {
   "name": "sidebar-sync",
   "main": "./lib/sidebar-sync",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Automatically reveals the active file in the sidebar",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/danjdewhurst/atom-sidebar-sync",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
