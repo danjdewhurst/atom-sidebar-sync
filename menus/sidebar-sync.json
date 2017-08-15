@@ -1,0 +1,34 @@
+{
+    "context-menu": {
+        "atom-text-editor": [
+            {
+                "label": "Enable sidebar sync",
+                "command": "sidebar-sync:enable"
+            },
+            {
+                "label": "Disable sidebar sync",
+                "command": "sidebar-sync:disable"
+            }
+        ]
+    },
+    "menu": [
+        {
+            "label": "Packages",
+            "submenu": [
+                {
+                    "label": "Sidebar Sync",
+                    "submenu": [
+                        {
+                            "label": "Enable sidebar sync",
+                            "command": "sidebar-sync:enable"
+                        },
+                        {
+                            "label": "Disable sidebar sync",
+                            "command": "sidebar-sync:disable"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
